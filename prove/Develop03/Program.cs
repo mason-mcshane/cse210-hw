@@ -1,6 +1,8 @@
 using System;
 using System.Text.RegularExpressions;
-
+// I polished up this program by adding the ScriptureAPI
+// so that I may use this program to memorize any scripture
+// that can be found in said API
 class Program
 {
     static async Task Main(string[] args)
