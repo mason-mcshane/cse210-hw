@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 public class Reference
 
 // Needs to have the ability to get the display text of the reference
@@ -32,11 +34,11 @@ public class Reference
     {
         return _chapter;
     }
-    public GetStartVerse()
+    public int GetStartVerse()
     {
         return _verse;
     }
-    public GetEndVerse()
+    public int GetEndVerse()
     {
         return _endVerse !=0 ? _endVerse : 0;
     }
@@ -47,7 +49,7 @@ public class Reference
         else
             return $"{_book} {_chapter}:{_verse}";
     }
-    static string CleanString(string input)
+    public string CleanString(string input)
     {
         string cleaned = Regex.Replace(input, "[^a-zA-Z0-9]", "");
 

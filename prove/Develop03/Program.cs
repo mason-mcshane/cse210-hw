@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         bool tryAgain = true;
         while (tryAgain)
@@ -22,7 +22,7 @@ class Program
                 Scripture scripture = new Scripture(reference, scriptureText);
                 Random random = new Random();
 
-                while (!scripture.IsCompletelyHidden())
+                while (!scripture.IsCompletetlyHidden())
                 {
                     Console.Clear();
 
@@ -38,7 +38,7 @@ class Program
                     scripture.HideRandomWords(random.Next(1, 4));
                 }
 
-                if (scripture.IsCompletelyHidden())
+                if (scripture.IsCompletetlyHidden())
                 {
                     Console.Clear();
                     Console.WriteLine(scripture.GetDisplayText());
