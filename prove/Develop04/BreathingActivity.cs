@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class BreathingActivity : Activity
 {
-    BreathingActivity(string name, string description, int duration) : base(name, description, duration)
+    public BreathingActivity(string name, string description, int duration) : base(name, description, duration)
     {
         
     }

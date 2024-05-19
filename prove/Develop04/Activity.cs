@@ -8,7 +8,7 @@ public class Activity
     public int _duration;
     
 
-    Activity(string name, string description, int duration)
+    public Activity(string name, string description, int duration)
     {
         _name = name;
         _description = description;
@@ -92,7 +92,7 @@ public class Activity
     }
     class BaseClass
     {
-    public BaseClass(int value)
+    protected BaseClass(int value)
          {
            // Initialize base class state
          }
