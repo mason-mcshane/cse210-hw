@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop04 World!");
+        Landing landing = new Landing();
+
+        landing.Main();
     }
 }
