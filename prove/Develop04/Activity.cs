@@ -76,4 +76,33 @@ public class Activity
             Console.Write("\b \b");
             }
     }
+    public string GetName()
+    {
+        return _name;
+    }
+
+    public string GetDescription()
+    {
+        return _description;
+    }
+
+    public int GetDuration()
+    {
+        return _duration;
+    }
+    class BaseClass
+    {
+    public BaseClass(int value)
+         {
+           // Initialize base class state
+         }
+    }
+
+    class DerivedClass : BaseClass
+    {
+    public DerivedClass(int value) : base(value)
+        {
+        // Initialize derived class state
+        }
+    }
 }

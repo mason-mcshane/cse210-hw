@@ -40,8 +40,8 @@ public class Landing
 
             else if(userResponse == "4")
             {
-                //Quit
-                Console.WriteLine("\nThank you for using our app! Goodbye! ");
+                // End the file
+                Console.WriteLine("\nThanks for using the program! ");
             }
 
             else
