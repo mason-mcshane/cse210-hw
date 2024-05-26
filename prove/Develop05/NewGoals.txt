@@ -1,0 +1,4 @@
+0
+SimpleGoal|Tell Claire how much I appreciate her each day I see her.|To show my love and care for her.|500|False
+EternalGoal|Attend the temple|Go there once a month to feel the spirit more in my life.|1000
+ChecklistGoal|Homework goal|Work on and complete my homework assignments 1 day before they are due.|100|20|100|0
