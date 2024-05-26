@@ -119,7 +119,7 @@ public class GoalManager
             _goals[goalNumber].RecordEvent();
             if (_goals[goalNumber] is ChecklistGoal checklistGoal && checklistGoal.IsComplete())
             {
-                _score += checklistGoal.Points + checklistGoal.Bonus; // Add bonus points if checklist goal is complete
+                _score += checklistGoal.Points + checklistGoal.Bonus;
             }
             Console.WriteLine("Event recorded.");
         }
@@ -172,7 +172,7 @@ public class GoalManager
                         var simpleGoal = new SimpleGoal(name, description, points);
                         if (isComplete)
                         {
-                            simpleGoal.RecordEvent(); // Mark as complete if necessary
+                            simpleGoal.RecordEvent();
                         }
                         _goals.Add(simpleGoal);
                     }
