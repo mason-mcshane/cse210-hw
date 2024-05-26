@@ -9,11 +9,8 @@ public class Word
     public Word(string text)
     {
         _text = text;
-<<<<<<< HEAD
         _isHidden = true;
-=======
         _isHidden = false;
->>>>>>> 0620d7250d1158c260a3b0acf43850b83b16fdfd
     }
     public void Hide()
     {
@@ -23,11 +20,8 @@ public class Word
     {
         _isHidden = false;
     }
-<<<<<<< HEAD
     public void IsHidden()
-=======
     public bool IsHidden()
->>>>>>> 0620d7250d1158c260a3b0acf43850b83b16fdfd
     {
         return _isHidden;
     }
