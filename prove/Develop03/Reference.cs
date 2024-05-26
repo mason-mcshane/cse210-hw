@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+using System.Text.RegularExpressions;
+
+>>>>>>> 0620d7250d1158c260a3b0acf43850b83b16fdfd
 public class Reference
 
 // Needs to have the ability to get the display text of the reference
@@ -32,11 +37,19 @@ public class Reference
     {
         return _chapter;
     }
+<<<<<<< HEAD
     public GetStartVerse()
     {
         return _verse;
     }
     public GetEndVerse()
+=======
+    public int GetStartVerse()
+    {
+        return _verse;
+    }
+    public int GetEndVerse()
+>>>>>>> 0620d7250d1158c260a3b0acf43850b83b16fdfd
     {
         return _endVerse !=0 ? _endVerse : 0;
     }
@@ -47,7 +60,11 @@ public class Reference
         else
             return $"{_book} {_chapter}:{_verse}";
     }
+<<<<<<< HEAD
     static string CleanString(string input)
+=======
+    public string CleanString(string input)
+>>>>>>> 0620d7250d1158c260a3b0acf43850b83b16fdfd
     {
         string cleaned = Regex.Replace(input, "[^a-zA-Z0-9]", "");
 
