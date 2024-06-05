@@ -23,7 +23,7 @@ class Program
             ev.GetStandardDetails();
             Console.WriteLine();
             ev.GetShortDescription();
-            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("----------------------------");
         }
     }
 }
