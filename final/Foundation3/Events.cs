@@ -19,7 +19,7 @@
 
         public virtual void GetStandardDetails()
         {
-            Console.WriteLine("STANDARD DETAILS");
+            Console.WriteLine("Standard Details");
             Console.WriteLine($"Title: {_title}");
             Console.WriteLine($"Descrition: {_description}");
             Console.WriteLine($"Time: {_time}  Date: {_date}");
@@ -28,7 +28,7 @@
 
         public virtual void GetFullDetails()
         {
-            Console.WriteLine("FULL DETAILS");
+            Console.WriteLine("Full details");
             Console.WriteLine($"Title: {_title}");
             Console.WriteLine($"Descrition: {_description}");
             Console.WriteLine($"Time: {_time}  Date: {_date}");

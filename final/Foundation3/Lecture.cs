@@ -14,7 +14,7 @@ public class Lecture : Event
 
     public override void GetFullDetails()
     {
-        Console.WriteLine("FULL DETAILS:");
+        Console.WriteLine("Full Details:");
         Console.WriteLine($"Title: {_title}");  
         Console.WriteLine($"Description: {_description}");  
         Console.WriteLine($"Time: {_time}");

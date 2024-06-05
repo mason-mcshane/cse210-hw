@@ -21,7 +21,7 @@ public class Gathering : Event
         Console.WriteLine($"The weather is {_weatherForecast}");
     }
 
-      public override void GetShortDescription()
+    public override void GetShortDescription()
     {
         Console.WriteLine($"Event Type: {_eventType}");
         Console.WriteLine($"Title: {_title}");
