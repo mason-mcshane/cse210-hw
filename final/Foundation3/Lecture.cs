@@ -4,7 +4,7 @@ public class Lecture : Event
 {
     private string _speaker; 
     private int _capacity;
-    private string _eventType = "LECTURE";
+    private string _eventType = "Lecture";
 
     public Lecture(string speaker, int capacity, string title, string description, string date, string time, Address address) : base(title, description, date, time, address)
     {

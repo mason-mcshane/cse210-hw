@@ -3,7 +3,7 @@ using System;
 public class Gathering : Event
 {
     private string _weatherForecast; 
-    private string _eventType = "PICNIC GATHERING";    
+    private string _eventType = "Picnic Gathering";    
 
     public Gathering(string weatherForecast, string title, string description, string date, string time, Address address) : base(title, description, date, time, address)
     {

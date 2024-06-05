@@ -3,7 +3,7 @@ using System;
 public class Reception : Event
 {
     private string _rsvpEmail; 
-    private string _eventType = "RECEPTION";    
+    private string _eventType = "Reception";    
 
     public Reception(string rsvpEmail, string title, string description, string date, string time, Address address) 
         : base(title, description, date, time, address)
