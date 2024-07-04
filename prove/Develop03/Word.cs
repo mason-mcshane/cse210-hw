@@ -20,7 +20,6 @@ public class Word
     {
         _isHidden = false;
     }
-    public void IsHidden()
     public bool IsHidden()
     {
         return _isHidden;

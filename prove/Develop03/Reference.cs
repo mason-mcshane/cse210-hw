@@ -11,14 +11,14 @@ public class Reference
     private int _verse;
     private int _endVerse;
 
-    public Reference (string book, int chapter, int verse)
+    public Reference(string book, int chapter, int verse)
     {
         _book = book;
         _chapter = chapter;
         _verse = verse;
         _endVerse = verse;
     }
-    public Reference (string book, int chapter, int startVerse, int endVerse)
+    public Reference(string book, int chapter, int startVerse, int endVerse)
     {
         _book = book;
         _chapter = chapter;
@@ -34,11 +34,7 @@ public class Reference
     {
         return _chapter;
     }
-    public GetStartVerse()
-    {
-        return _verse;
-    }
-    public GetEndVerse()
+
     public int GetStartVerse()
     {
         return _verse;
@@ -54,7 +50,6 @@ public class Reference
         else
             return $"{_book} {_chapter}:{_verse}";
     }
-    static string CleanString(string input)
     public string CleanString(string input)
     {
         string cleaned = Regex.Replace(input, "[^a-zA-Z0-9]", "");
